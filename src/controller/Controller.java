@@ -6,16 +6,16 @@ import model.LiterallyAnything;
 
 public class Controller
 {
-	private LiterallyAnything myInputStuff;
+	private LiterallyAnything myLA;
 	
 	public void start()
 	{
-		JOptionPane.showMessageDialog(null, myInputStuff);
+		JOptionPane.showMessageDialog(null, myLA);
 
 	}
 	
 	public Controller()
 	{
-		myInputStuff = new LiterallyAnything();
+		myLA = new LiterallyAnything ("First Title", 1 , 2.0);
 	}
 }
